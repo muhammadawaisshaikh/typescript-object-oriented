@@ -1,3 +1,7 @@
+// Class Inheritance
+// TypeScript supports the concept of Inheritance. Inheritance is the ability of a program to create new classes from an existing class. 
+// The class that is extended to create newer classes is called the parent class/super class. The newly created classes are called the child/sub classes.
+
 class Vehicle {
     model: string;
     type: string;
@@ -14,7 +18,7 @@ class Vehicle {
     }
 }
 
-// Basic inheritance using super:
+// Basic inheritance of Car with Vehicle:
 class Car extends Vehicle {
 
     horsePower: number;
@@ -33,6 +37,7 @@ class Car extends Vehicle {
     }
 }
 
+// Basic inheritance of Truck with Vehicle:
 class Truck extends Vehicle {
 
     constructor(model, type, color){
