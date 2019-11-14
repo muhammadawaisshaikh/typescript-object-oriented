@@ -2,6 +2,8 @@
 // which triggers the constructor and returns an instance-object just like in regular JavaScript. Since objects in JavaScript are 
 // technically just a set of key/value pairs, I like to use the term instance-object to refer to objects returned with the new keyword.
 
+// instance object using typescript/ES6
+
 class Animal {
     age: number;
     type: string;

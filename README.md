@@ -9,3 +9,6 @@ write Typescript inside
 
 # Compile TypeScript
 tsc greet/greet.ts
+
+# Reference
+https://levelup.gitconnected.com/typescript-object-oriented-concepts-in-a-nutshell-cb2fdeeffe6e
